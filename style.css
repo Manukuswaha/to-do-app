@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://plus.unsplash.com/premium_photo-1726399100154-1904e3bae810?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.to-do-app{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.314);
+    padding: 5px 10px;
+    border-radius: 20px;
+    overflow: scroll;
+    
+}
+
+.entery{
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+}
+.entery input{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+
+.entery button{
+    padding: 5px 15px;
+    background-color: rgb(52, 52, 189);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btndelete{
+    padding: 5px 10px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+li.completed {
+    background-color: #d4edda;
+    color: #155724; 
+    text-decoration: line-through;  
+    border-left: 5px solid #28a745; 
+    opacity: 0.6; 
+}
+.btn-container {
+    display: flex;
+    gap: 5px;
+}
+
+.completed-btn {
+    background-color: #28a745;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.complete-btn:hover {
+    background-color: #218838;
+
+}
